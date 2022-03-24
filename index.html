@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array JS</title>
+    
+</head>
+<body>
+    
+    <h1>Array-List und Eigenschaften</h1>
+
+    <script>  
+        //    var stadtArray = ["Düsseldorf", "Berlin", "Frankfurt","Hamburg","Neuss","München"];   
+        var stadtArray = new Array ("Düsseldorf", "Berlin", "Frankfurt","Hamburg","Köln","München"); 
+
+         //pop//
+
+        var entfernt = stadtArray.pop();  
+        console.log("Die Stadt: " + entfernt + " wurde entfernt");
+        document.write("Die Stadt: " + entfernt + " wurde entfernt"); 
+        
+       
+        //push//
+
+        var inputArray = "Essen" ; 
+        stadtArray.push(inputArray);  
+        document.write("<br> Die Stadt: " + inputArray + " wurde dem Array hinzugefügt");
+          alert (stadtArray);  
+     
+
+        //shift//
+
+        var ersteStadt = stadtArray.shift(); 
+        document.write(" <br>Die Stadt: " + ersteStadt + " wurde entfernt");
+        
+        
+        console.log(stadtArray.length)
+        console.log(stadtArray)
+
+    </script>
+
+</body>
+</html>
+        
+ 
